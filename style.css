@@ -115,7 +115,27 @@
       padding: 10px;
       overflow-x: hidden;
     }
-  
+    .container
+    {
+        flex-direction: column;
+    }
+    #inner1
+    {
+        /* background-color: blue; */
+        height: 350px;
+        width: 400px;
+        padding-left: 10px;
+    }
+    #inner2
+    {
+        margin-top: 250px;
+    
+        height: 600px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
     #form {
       width: 100%;
       max-width: 90%;
@@ -139,7 +159,8 @@
       font-size: 16px;
     }
   
-    button {
+    button 
+    {
       font-size: 16px;
     }
   }
